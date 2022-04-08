@@ -75,10 +75,10 @@ function App() {
     
       <div className="App">
          <div>
-      <input className="formone"   onChange={handleChangeone} value={stateone}></input>
+      <input className="formone"  placeholder="Введите число" onChange={handleChangeone} value={stateone}></input>
      </div>
      <div> 
-       <input className="formtwo"  onChange={handleChangetwo} value={statetwo}></input>
+       <input className="formtwo" placeholder="Введите число" onChange={handleChangetwo} value={statetwo}></input>
      </div>
      <div>
      <input className="formthree"  value={result}></input>
