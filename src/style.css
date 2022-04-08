@@ -1,0 +1,27 @@
+.App{
+    padding-top: 100px;
+  margin: 0 auto;
+  height: 300px;
+    
+}
+.auto{
+    display: flex;
+    height: 500px;
+    
+}
+.formone, .formtwo, .formthree{
+    height: 30px;
+}
+.formtwo, .formthree{
+    margin-top: 15px;
+}
+.wrapper{
+    width: 147x;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.wrapper button{
+    width: 30px;
+    height: 30px;
+}
